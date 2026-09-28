@@ -8,6 +8,7 @@
   sudo chown meghna96128:mail /var/mail/meghna96128
 
 - Reinstalled postfix and enabled service:
+```bash
     sudo apt install --reinstall postfix -y
     sudo systemctl unmask postfix
     sudo systemctl enable postfix
@@ -23,7 +24,7 @@ Prepares for future integration with Amazon SES or other SMTP relays.
 
 Testing Mail Delivery
 - Send a test message:
-echo "Hello from Postfix" | mail -s "Test Subject" meghna96128
+`echo "Hello from Postfix" | mail -s "Test Subject" meghna96128`
 
 - Read mail:
 `mail`

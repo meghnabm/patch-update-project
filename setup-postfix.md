@@ -16,11 +16,11 @@
     sudo systemctl start postfix
 
 - Postfix Configuration Choice
-During installation, Postfix prompts for configuration type.
-I chose: Internet with smarthost
-Works for local delivery now.
-Prepares for future integration with Amazon SES or other SMTP relays.
-“Local only” would restrict mail to the VM and block future cloud integration.
+    During installation, Postfix prompts for configuration type.
+                I chose: Internet with smarthost
+    Works for local delivery now.
+    Prepares for future integration with Amazon SES or other SMTP relays.
+    “Local only” would restrict mail to the VM and block future cloud integration.
 
 Testing Mail Delivery
 - Send a test message:

@@ -8,7 +8,7 @@
   sudo chown meghna96128:mail /var/mail/meghna96128
 
 - Reinstalled postfix and enabled service:
-```bash
+    ```bash
     sudo apt install --reinstall postfix -y
     sudo systemctl unmask postfix
     sudo systemctl enable postfix
